@@ -116,7 +116,7 @@ import {
   const experiences = [
     {
       title: "3D model designer",
-      company_name: "SOIND",
+      company_name: "Innovaciones Chamorro",
       icon: innovaciones,
       iconBg: "#383E56",
       date: "March 2020 - Present",
