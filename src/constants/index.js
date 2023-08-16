@@ -15,14 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    innovaciones,
+    univalle,
     carrent,
     jobit,
     tripguide,
     threejs,
+    fiverr,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +41,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Java Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
       icon: mobile,
     },
     {
@@ -54,7 +53,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mobile App Developer",
       icon: creator,
     },
   ];
@@ -116,57 +115,41 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "3D model designer",
+      company_name: "SOIND",
+      icon: innovaciones,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed 3D machinery models achieving a 20% of reduction in manufacturing time.",
+        "Built inventory system saving 9% money in material loss.",
+        "Researched and implemented salesforce monitoring according to results using statistical tools.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Java Software Developer",
+      company_name: "Universidad del Valle",
+      icon: univalle,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2019 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built AM signal modulation Desktop application.",
+        "Developed and Assembled a GoalKeeper robot using C language.",
+        "Headed Java investigation group to calculate student dropout rate.",
+        "Collaborated closely with the Analysis And Compensation Of Linear Systems team work for the design and assembled of the PID control of a robotic leg.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Freelancer Web Developer",
+      company_name: "Fiverr",
+      icon: fiverr,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Website designing for the Fiverr community",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
