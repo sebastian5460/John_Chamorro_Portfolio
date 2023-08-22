@@ -25,11 +25,14 @@ import fiverr from "./company/fiverr.png"
 import innovaciones from "./company/Innovaciones_Chamorro.png"
 import univalle from "./company/univalle.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import hospital_manage from "./hospital_management.png"
+import lets_code from "./lets_code.png"
+import denise from "./denise.png"
+
+import photo from "./Seb_FondoAzul.jpg"
 
 export {
+  photo,
   scriptIcon,
   backend,
   creator,
@@ -54,7 +57,7 @@ export {
   fiverr,
   innovaciones,
   univalle,
-  carrent,
-  jobit,
-  tripguide,
+  hospital_manage,
+  lets_code,
+  denise,
 };

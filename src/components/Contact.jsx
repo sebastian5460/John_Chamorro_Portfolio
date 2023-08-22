@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// template_a8ss3nm
+// service_108098c
+// lEd9K3CJvQ2JA7GPy
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,16 +37,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_108098c',
+        'template_a8ss3nm',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: 'John',
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "sebastianchamorro271@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'lEd9K3CJvQ2JA7GPy'
       )
       .then(
         () => {
@@ -75,11 +79,26 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        {/* <div className="flex items-center">
+          <span className="text-white font-medium mr-2">Take a view of my LinkedIn  <i className="fa-solid fa-hand-point-right"></i></span>
+          <a rel="noreferrer" href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3By%2B1eG4EeTZyrs3rc%2FUANLg%3D%3D" className="home__social-link" target="_blank">
+            <i className="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+        </div> */}
+        <label className="flex flex-col">
+          <span className="text-white font-medium mb-4">Take a view of my LinkedIn</span>
+          <a rel="noreferrer" href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3By%2B1eG4EeTZyrs3rc%2FUANLg%3D%3D" className="home__social-link" target="_blank">
+                <i className="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+        </label>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
+
+
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
@@ -105,7 +124,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={4}
               name='message'
               value={form.message}
               onChange={handleChange}

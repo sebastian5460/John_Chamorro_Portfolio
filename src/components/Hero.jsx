@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import "./Hero.css";
 
 import { styles } from "../styles";
+// import photo from "../assets/Seb_FondoAzul.jpg"
+// import HeaderSocials from "./HeaderSocials";
 // import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
@@ -22,7 +25,15 @@ const Hero = () => {
             I develop mobile and Desktop<br className='sm:block hidden' />
             Software solutions
           </p>
+
+          {/* <img src={photo} alt="" className="home__img" />
+          <HeaderSocials /> */}
+
         </div>
+
+      
+
+        
       </div>
 
       {/* <ComputersCanvas /> */}

@@ -1,0 +1,32 @@
+.home__img{
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    transform: translate(260%, -60%);
+    object-fit: cover;
+    height: 60%;
+    width: 60%;
+}
+
+
+.home__socials {
+    display: flex;
+    column-gap: 1.75rem;
+    margin: 1.5rem;
+}
+
+.home__social-link {
+    color: hsl(244, 24%, 26%);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home__social-link:hover {
+    color: hsl(43, 100%, 68%);
+}
+
+@media screen  and (max-width:1024px){
+
+    .home__social-link{
+        font-size: 1.125rem;
+    }
+}

@@ -17,9 +17,9 @@ import {
     docker,
     innovaciones,
     univalle,
-    carrent,
-    jobit,
-    tripguide,
+    hospital_manage,
+    lets_code,
+    denise,
     threejs,
     fiverr,
   } from "../assets";
@@ -182,67 +182,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Hospital Management",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to make create a profile, manage appointments with specialist doctors and cancel them as well. This program allows 3 different kind of users, patients, doctors and admin which have the entire control of the web.",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "js",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: hospital_manage,
+      source_code_link: "https://github.com/sebastian5460/Hospital_management",
     },
     {
-      name: "Job IT",
+      name: "Let's code",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It's a web blog where users can talk about programming and technology, the admin has must part of the control but identified users can make their own contributions.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "js",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: lets_code,
+      source_code_link: "https://github.com/sebastian5460/lets_code/",
+    },
+    {
+      name: "Denise e-commerce",
+      description:
+        "Denise e-commerce it's an e-commerce focused in the fashion clothe sells, it's design is comfortable and nice to look at.",
+      tags: [
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "css",
+          color: "blue-text-gradient", //blue-text-gradien
+        },
+        {
+          name: "js",
+          color: "green-text-gradient",
+        },
+      ],
+      image: denise,
+      source_code_link: "https://github.com/sebastian5460/fashion-ecommerce/",
     },
   ];
   
